@@ -18,5 +18,26 @@ print(s.capitalize())
 
 # list of string methods here -> https://www.w3schools.com/python/python_ref_string.asp
 # examples
+# turn string into an array
 print(s.split())
+# is this a character
 print(s.isalpha())
+# is it alphanumeric
+print(s.isalnum())
+# is this a number
+print(s.isnumeric())
+
+# capitalize string
+print(name.capitalize())
+# switch the case
+print(name.swapcase())
+# get the length
+print(len(s))
+# get the number of 'x' in a string
+findme = 'i'
+print(s.count(findme))
+# replace in a string5
+print(s.replace('i', 'I'))
+
+# find position of a character
+print(s.find('d'))
